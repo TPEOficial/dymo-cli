@@ -1,6 +1,7 @@
 # Python files.
 build
 dymo_cli.egg-info
+dymo-cli.egg-info
 venv
 .venv
 env
