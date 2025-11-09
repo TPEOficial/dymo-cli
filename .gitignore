@@ -2,6 +2,7 @@
 build
 snatch.egg-info
 venv
+.venv
 env
 __pycache__
 
