@@ -1,4 +1,3 @@
-# Unit tests for detection module.
 import pytest
 from dymo_cli.detection import detect_type
 
@@ -13,5 +12,4 @@ from dymo_cli.detection import detect_type
     ],
 )
 def test_detect_type(value, expected):
-    # Test detection returns expected types.
     assert detect_type(value) == expected
