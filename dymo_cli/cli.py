@@ -11,10 +11,8 @@ CONFIG_FILE = Path.home() / ".dymorc"
 
 def load_config() -> dict:
     if CONFIG_FILE.exists():
-        try:
-            return json.loads(CONFIG_FILE.read_text())
-        except Exception:
-            return {}
+        try: return json.loads(CONFIG_FILE.read_text())
+        except Exception: return {}
     return {}
 
 def save_config(cfg: dict):
@@ -26,14 +24,12 @@ def ask_for_api_key() -> str:
     while True:
         print("Get your free API Key at https://tpe.li/new-api-key")
         key = interactive_input("Enter your DYMO API key (must start with 'dm_')").strip()
-        if key.startswith("dm_"):
-            return key
+        if key.startswith("dm_"): return key
         print("Invalid API key. It must start with 'dm_'.")
 
 def get_api_key(cfg: dict) -> str:
     key = cfg.get("DYMO_API_KEY")
-    if key and key.startswith("dm_"):
-        return key
+    if key and key.startswith("dm_"): return key
     key = ask_for_api_key()
     cfg["DYMO_API_KEY"] = key
     save_config(cfg)
