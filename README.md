@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Dymo CLI</h1>
-  <h3>AI OSINT - Capture, download, and enjoy.</h3>
+  <h3>Dymo API right in your terminal.</h3>
   <img src="https://img.shields.io/badge/Python-purple?style=for-the-badge&logo=python&logoColor=white"/> 
   <a href="https://github.com/TPEOficial"> <img alt="GitHub" src="https://img.shields.io/badge/GitHub-purple?style=for-the-badge&logo=github&logoColor=white"/></a>
   <a href="https://ko-fi.com/fjrg2007"> <img alt="Kofi" src="https://img.shields.io/badge/Ko--fi-purple?style=for-the-badge&logo=ko-fi&logoColor=white"></a>
