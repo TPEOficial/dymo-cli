@@ -1,6 +1,6 @@
 # Python files.
 build
-snatch.egg-info
+dymo_cli.egg-info
 venv
 .venv
 env
@@ -10,21 +10,6 @@ __pycache__
 .env
 notes
 output
-
-# Customs folder.
-customs/*
-!customs/directory_listing/
-!customs/extract_metadata/
-customs/directory_listing/*
-!customs/directory_listing/known_people_folder/WHAT_TO_PUT_HERE.txt
-customs/directory_listing/known_people_folder/*
-!customs/directory_listing/WHAT_TO_PUT_HERE.txt
-customs/extract_metadata/*
-!customs/extract_metadata/WHAT_TO_PUT_HERE.txt
-customs/image_analysis/*
-!customs/image_analysis/WHAT_TO_PUT_HERE.txt
-!customs/WHAT_TO_PUT_HERE.txt
-!customs/snatch
 
 # IDE configurations.
 .idea
