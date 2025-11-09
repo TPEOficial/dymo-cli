@@ -16,9 +16,27 @@ Using Dymo API from your terminal has never been easier!
 
 ### Use
 
+#### Step 1: Install dependencies
+
+You can install all dependencies from a requirements file hosted online:
+
+```bash
+$ pip install -r https://raw.githubusercontent.com/TPEOficial/dymo-cli/main/requirements.txt
+```
+
 We install the package with the Python installer:
 ```bash
 $ pip install dymo-cli
+```
+
+That's it! You can now use the CLI in either of these two ways!
+
+```bash
+$ dymo-cli
+
+# or
+
+$ dymo-cli <input>
 ```
 
 #### License
